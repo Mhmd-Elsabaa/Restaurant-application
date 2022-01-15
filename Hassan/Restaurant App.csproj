@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B7957A9-03E6-4365-A125-D1140A77257B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RestaurantApp</RootNamespace>
+    <AssemblyName>RestaurantApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>E:\idm\Compressed\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\class_customers.cs" />
+    <Compile Include="BL\class_orders.cs" />
+    <Compile Include="BL\Class_printer.cs" />
+    <Compile Include="BL\class_products.cs" />
+    <Compile Include="BL\class_report.cs" />
+    <Compile Include="BL\class_users_login.cs" />
+    <Compile Include="DAL\data_access_layer.cs" />
+    <Compile Include="PD\kitchen_data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kitchen_data.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PL\bill_deleted_report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\bill_deleted_report.Designer.cs">
+      <DependentUpon>bill_deleted_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\connection_vars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\connection_vars.Designer.cs">
+      <DependentUpon>connection_vars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\form_main.Designer.cs">
+      <DependentUpon>form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\form_table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\form_table.Designer.cs">
+      <DependentUpon>form_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\select_printers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\select_printers.Designer.cs">
+      <DependentUpon>select_printers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_add_product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_add_product.Designer.cs">
+      <DependentUpon>uc_add_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_bills.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_bills.Designer.cs">
+      <DependentUpon>uc_bills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_category_managment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_category_managment.Designer.cs">
+      <DependentUpon>uc_category_managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_login.Designer.cs">
+      <DependentUpon>uc_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_main_table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_main_table.Designer.cs">
+      <DependentUpon>uc_main_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_products_managment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_products_managment.Designer.cs">
+      <DependentUpon>uc_products_managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_purchases.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_purchases.Designer.cs">
+      <DependentUpon>uc_purchases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_report.Designer.cs">
+      <DependentUpon>uc_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_report_bills.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_report_bills.Designer.cs">
+      <DependentUpon>uc_report_bills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_report_customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_report_customer.Designer.cs">
+      <DependentUpon>uc_report_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_report_product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_report_product.Designer.cs">
+      <DependentUpon>uc_report_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_report_users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_report_users.Designer.cs">
+      <DependentUpon>uc_report_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_table.Designer.cs">
+      <DependentUpon>uc_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_users.Designer.cs">
+      <DependentUpon>uc_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\uc_user_pass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\uc_user_pass.Designer.cs">
+      <DependentUpon>uc_user_pass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report\rpt_orders.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_orders.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\rpt_kitchen.cs">
+      <DependentUpon>rpt_kitchen.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="report\rpt_place.cs">
+      <DependentUpon>rpt_place.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="report\rpt_safry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_safry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="PL\bill_deleted_report.resx">
+      <DependentUpon>bill_deleted_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\connection_vars.resx">
+      <DependentUpon>connection_vars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\form_main.resx">
+      <DependentUpon>form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\form_table.resx">
+      <DependentUpon>form_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\select_printers.resx">
+      <DependentUpon>select_printers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_add_product.resx">
+      <DependentUpon>uc_add_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_bills.resx">
+      <DependentUpon>uc_bills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_category_managment.resx">
+      <DependentUpon>uc_category_managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_login.resx">
+      <DependentUpon>uc_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_main_table.resx">
+      <DependentUpon>uc_main_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_products_managment.resx">
+      <DependentUpon>uc_products_managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_purchases.resx">
+      <DependentUpon>uc_purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_report.resx">
+      <DependentUpon>uc_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_report_bills.resx">
+      <DependentUpon>uc_report_bills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_report_customer.resx">
+      <DependentUpon>uc_report_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_report_product.resx">
+      <DependentUpon>uc_report_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_report_users.resx">
+      <DependentUpon>uc_report_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_table.resx">
+      <DependentUpon>uc_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_users.resx">
+      <DependentUpon>uc_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\uc_user_pass.resx">
+      <DependentUpon>uc_user_pass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="report\rpt_orders.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_orders.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\rpt_kitchen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_kitchen.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\rpt_place.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_place.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\rpt_safry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_safry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="PD\kitchen_data.xsc">
+      <DependentUpon>kitchen_data.xsd</DependentUpon>
+    </None>
+    <None Include="PD\kitchen_data.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kitchen_data.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PD\kitchen_data.xss">
+      <DependentUpon>kitchen_data.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fes.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

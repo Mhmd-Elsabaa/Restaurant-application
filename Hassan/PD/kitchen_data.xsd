@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="kitchen_data" targetNamespace="http://tempuri.org/kitchen_data.xsd" xmlns:mstns="http://tempuri.org/kitchen_data.xsd" xmlns="http://tempuri.org/kitchen_data.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="kitchen_data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="kitchen_data" msprop:Generator_UserDSName="kitchen_data">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kitchen_order" msprop:Generator_TableClassName="kitchen_orderDataTable" msprop:Generator_TableVarName="tablekitchen_order" msprop:Generator_TablePropName="kitchen_order" msprop:Generator_RowDeletingName="kitchen_orderRowDeleting" msprop:Generator_RowChangingName="kitchen_orderRowChanging" msprop:Generator_RowEvHandlerName="kitchen_orderRowChangeEventHandler" msprop:Generator_RowDeletedName="kitchen_orderRowDeleted" msprop:Generator_UserTableName="kitchen_order" msprop:Generator_RowChangedName="kitchen_orderRowChanged" msprop:Generator_RowEvArgName="kitchen_orderRowChangeEvent" msprop:Generator_RowClassName="kitchen_orderRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="المنتج" msprop:Generator_ColumnVarNameInTable="columnالمنتج" msprop:Generator_ColumnPropNameInRow="المنتج" msprop:Generator_ColumnPropNameInTable="المنتجColumn" msprop:Generator_UserColumnName="المنتج" type="xs:string" minOccurs="0" />
+              <xs:element name="السعر" msprop:Generator_ColumnVarNameInTable="columnالسعر" msprop:Generator_ColumnPropNameInRow="السعر" msprop:Generator_ColumnPropNameInTable="السعرColumn" msprop:Generator_UserColumnName="السعر" type="xs:double" minOccurs="0" />
+              <xs:element name="الكميه" msprop:Generator_ColumnVarNameInTable="columnالكميه" msprop:Generator_ColumnPropNameInRow="الكميه" msprop:Generator_ColumnPropNameInTable="الكميهColumn" msprop:Generator_UserColumnName="الكميه" type="xs:int" minOccurs="0" />
+              <xs:element name="المبلغ" msprop:Generator_ColumnVarNameInTable="columnالمبلغ" msprop:Generator_ColumnPropNameInRow="المبلغ" msprop:Generator_ColumnPropNameInTable="المبلغColumn" msprop:Generator_UserColumnName="المبلغ" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

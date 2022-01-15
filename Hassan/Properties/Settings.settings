@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RestaurantApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQLSERVER</Value>
+    </Setting>
+    <Setting Name="database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sell_db</Value>
+    </Setting>
+    <Setting Name="mode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sql</Value>
+    </Setting>
+    <Setting Name="id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">donotCare</Value>
+    </Setting>
+    <Setting Name="printer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">var</Value>
+    </Setting>
+    <Setting Name="k_printer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">var</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

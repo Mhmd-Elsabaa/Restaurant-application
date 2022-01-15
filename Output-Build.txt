@@ -1,0 +1,57 @@
+﻿Build started...
+1>------ Build started: Project: Restaurant App, Configuration: Debug Any CPU ------
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\BL\class_users_login.cs(31,30,31,32): warning CS0168: The variable 'ex' is declared but never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\bill_deleted_report.cs(97,21,97,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\bill_deleted_report.cs(137,25,137,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\bill_deleted_report.cs(157,29,157,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(89,29,89,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(110,21,110,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(128,25,128,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(149,21,149,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(193,21,193,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(298,29,298,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_bills.cs(157,28,157,60): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_bills.cs(178,21,178,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\form_table.cs(333,33,333,65): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_bills.cs(210,25,210,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_bills.cs(231,21,231,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.cs(27,21,27,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.cs(56,21,56,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.cs(84,25,84,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_table.cs(72,29,72,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_table.cs(93,21,93,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_table.cs(110,25,110,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_customer.cs(38,25,38,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_customer.cs(55,29,55,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.cs(102,25,102,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.cs(119,29,119,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_table.cs(131,21,131,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_bills.cs(119,21,119,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_customer.cs(79,25,79,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_customer.cs(98,29,98,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_bills.cs(146,25,146,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_table.cs(172,21,172,53): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_bills.cs(178,25,178,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_bills.cs(208,25,208,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_main_table.cs(54,30,54,32): warning CS0168: The variable 'ex' is declared but never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_product.cs(87,25,87,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_product.cs(122,29,122,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_users.cs(43,25,43,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_users.cs(60,29,60,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_users.cs(83,25,83,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_users.cs(99,29,99,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_product.cs(156,25,156,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_product.cs(176,29,176,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_product.cs(203,25,203,57): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_report_product.cs(222,29,222,61): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'string'
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(480,44,480,50): warning CS0169: The field 'uc_purchases.label1' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(481,46,481,54): warning CS0169: The field 'uc_purchases.textBox4' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(477,46,477,54): warning CS0169: The field 'uc_purchases.textBox2' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(476,44,476,50): warning CS0169: The field 'uc_purchases.panel2' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(482,44,482,50): warning CS0169: The field 'uc_purchases.label4' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(483,46,483,54): warning CS0169: The field 'uc_purchases.textBox3' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(484,44,484,50): warning CS0169: The field 'uc_purchases.label3' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(479,46,479,54): warning CS0169: The field 'uc_purchases.textBox1' is never used
+1>D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\PL\uc_purchases.Designer.cs(478,44,478,50): warning CS0169: The field 'uc_purchases.label2' is never used
+1>  Restaurant App -> D:\_MyProject\RestaurantApp\RestaurantApp\Hassan\bin\Debug\RestaurantApp.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
